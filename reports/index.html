@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Karate + Rest Assured reports</title>
+    <style>
+      body { font-family: Segoe UI, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; }
+      a { color: #0b57d0; }
+      li { margin: 0.4rem 0; }
+      .note { color: #444; }
+    </style>
+  </head>
+  <body>
+    <h1>Test reports</h1>
+    <p class="note">Generated under each module’s <code>target/</code> after <code>mvn test</code>.</p>
+    <h2>Karate</h2>
+    <ul>
+      <li><a href="../karate/target/karate-reports/karate-summary.html">Karate summary</a></li>
+      <li><a href="../karate/target/cucumber-html-reports/overview-features.html">Cucumber HTML</a></li>
+    </ul>
+    <h2>Rest Assured</h2>
+    <ul>
+      <li><a href="../rest-assured/target/extent-report/index.html">ExtentReports</a></li>
+    </ul>
+  </body>
+</html>

@@ -69,4 +69,4 @@ reports/           Links to generated HTML reports
 
 ## CI
 
-Not wired yet. Next step after this suite is green.
+GitHub Actions runs `mvn -B test` on Java 17 and uploads Karate, Cucumber, and Extent reports as the `api-reports` artifact.
